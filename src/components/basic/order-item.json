@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_basic_order_items",
+  "info": {
+    "displayName": "OrderItem",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "quantity": {
+      "type": "integer"
+    },
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    }
+  }
+}
